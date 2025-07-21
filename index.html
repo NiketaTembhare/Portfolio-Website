@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niketa Tembhare | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Niketa's Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="Niketa_Tembhare_CE.pdf" target="_blank" class="resume-btn">Resume</a></li>
+        </ul>
+    </nav>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="accent">Niketa Tembhare</span></h1>
+            <p class="tagline">Building Scalable Solutions | Computer Engineering Student</p>
+           <h3>Objective</h3>
+            <p class="tagline">platform app development, web development, database management, and AI-based projects. Aiming
+to apply strong technical skills and practical exposure to build impactful, scalable solutions.</p>
+            <a href="#projects" class="hero-btn">View My Work</a>
+        </div>
+        <div class="hero-img">
+            <img src="image.jpg" alt="Niketa Tembhare profile">
+        </div>
+    </header>
+    <main>
+        <section id="projects" class="section projects-section">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <img src="AMHC.jpg" alt="AI Mental Health Companion">
+                    <div class="card-body">
+                        <h3>AI-Powered Mental Health Companion</h3>
+                        <span class="tag">Hackathon Project | May 2025</span>
+                        <p>Voice-controlled chatbot, emotion recognition via facial analysis, and real-time mental health feedback.</p>
+                        <p class="tech">Tech: Python, OpenCV, SQL, APIs</p>
+                        <a href="https://github.com/NiketaTembhare/mental-health-companion" target="_blank" class="card-btn">View Project</a>
+                    </div>
+                </div>
+                <!-- Project Card 2 -->
+                <div class="project-card">
+                    <img src="video_tampering.jpg" alt="Video Tampering Detection">
+                    <div class="card-body">
+                        <h3>Video Tampering Detection System</h3>
+                        <span class="tag">Self-Learning Project | Nov 2024</span>
+                        <p>ML model to analyze video frames for tampering signs.</p>
+                        <p class="tech">Tech: Python, TensorFlow, Flask, OpenCV, JS</p>
+                        <a href="https://github.com/NiketaTembhare/VideoDetection" target="_blank" class="card-btn">View Project</a>
+                    </div>
+                </div>
+                <!-- Project Card 3 -->
+                <div class="project-card">
+                    <img src="UI_Builder.jpg" alt="UI Builder App">
+                    <div class="card-body">
+                        <h3>UI Builder App</h3>
+                        <span class="tag">Internship Project | Sept 2024</span>
+                        <p>Mobile app to create, share, and download UI templates.</p>
+                        <p class="tech">Tech: JavaScript, PHP, HTML, CSS</p>
+                        <a href="https://www.linkedin.com/posts/niketa-tembhare-b86774255_uibuilder-mobiledevelopment-php-activity-7238555552161669120-372J?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFw-m5MBSRGVkG9rdN76OiQPa8CZ1AYm-aw" target="_blank" class="card-btn">View Project</a>
+                    </div>
+                </div>
+                <!-- Project Card 4 -->
+                <div class="project-card">
+                    <img src="PlagiarismChecker.jpg" alt="AI-Text-Plagiarism-Checker">
+                    <div class="card-body">
+                        <h3>AI-Text-Plagiarism-Checker</h3>
+                        <span class="tag">Hackathon project | Jan 2025 – Feb 2025</span>
+                        <p>AI Plagiarism Checker An AI-powered plagiarism detection tool that scans online sources to check for duplicate content.</p>
+                        <p class="tech">Tech: Python, MySQL, HTML, CSS</p>
+                        <a href="https://github.com/NiketaTembhare/AI-Text-Plagiarism-Checker" target="_blank" class="card-btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- SKILLS SECTION -->
+<!-- Skills Section -->
+<section id="skills" class="section skills-section">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="skills-grid">
+        <div class="skill-card">
+            <img src="html.png" alt="HTML Logo">
+            <p>HTML</p>
+        </div>
+        <div class="skill-card">
+            <img src="css.png" alt="CSS Logo">
+            <p>CSS</p>
+        </div>
+        <div class="skill-card">
+            <img src="js.png" alt="JavaScript Logo">
+            <p>JavaScript (Beginner)</p>
+        </div>
+         <div class="skill-card">
+            <img src="SQL.png" alt="MySql Logo">
+            <p>MySql</p>
+        </div>
+        <div class="skill-card">
+            <img src="java.png" alt="Java Logo">
+            <p>Java</p>
+        </div>
+        <div class="skill-card">
+            <img src="c.png" alt="C Logo">
+            <p>C</p>
+        </div>
+    </div>
+</section>
+
+
+
+        <section id="achievements" class="section achievements-section">
+            <h2 class="section-title">Achievements & Participation</h2>
+            <div class="certificates-gallery">
+                <!-- Certificate 1 -->
+                <div class="certificate-card" onclick="openModal('internship.jpg')">
+                    <img src="internship.jpg" alt="Certificate 1">
+                    <span>Internship completion</span>
+                </div>
+                <!-- Certificate 2 -->
+                <div class="certificate-card" onclick="openModal('CSStraining.jpg')">
+                    <img src="CSStraining.jpg" alt="Certificate 2">
+                    <span>CSS Workshop Taken By me</span>
+                </div>
+                 <!-- Certificate 3 -->
+                <div class="certificate-card" onclick="openModal('UIBuilder.jpg')">
+                    <img src="UIBuilder.jpg" alt="Certificate 3">
+                    <span>UI Builder Excellence Certificate </span>
+                </div>
+                   <!-- Certificate 4 -->
+                <div class="certificate-card" onclick="openModal('HCL.jpg')">
+                    <img src="HCL.jpg" alt="Certificate 4">
+                    <span>HCL Training Certificate</span>
+                </div>
+                   <!-- Certificate 5 -->
+                <div class="certificate-card" onclick="openModal('persistent.jpg')">
+                    <img src="persistent.jpg" alt="Certificate 5">
+                    <span>Persistent Training and Internship </span>
+                </div>
+                   <!-- Certificate 6 -->
+                <div class="certificate-card" onclick="openModal('pyfordatasic.jpg')">
+                    <img src="pyfordatasic.jpg" alt="Certificate 6">
+                    <span>Python for Data Science workshop</span>
+                </div>
+                 <div class="certificate-card" onclick="openModal('RBU Hackathon.jpg')">
+                    <img src="RBU Hackathon.jpg" alt="Certificate 6">
+                    <span>National Level Project Competition</span>
+                </div>
+                 <div class="certificate-card" onclick="openModal('Aavishkar2025.jpg')">
+                    <img src="Aavishkar2025.jpg" alt="Certificate 6">
+                    <span>Avishkaar 3.0, an Inter-Collegiate
+Hackathon</span>
+                </div>
+                    <div class="certificate-card" onclick="openModal('NGO.jpg')">
+                    <img src="NGO.jpg" alt="Certificate 6">
+                    <span>NGO Event management (Stambh Organization)</span>
+                </div>
+                <!-- Add more certificates as needed -->
+            </div>
+        </section>
+
+        <section id="experience" class="section experience-section">
+            <h2 class="section-title">Training & Experience</h2>
+            <div class="experience-list">
+            <div class="experience-card">
+                    <h3> HCL Trainee (Project Sunshine Initiative)</h3>
+                    <span class="tag">April 2025</span>
+                    <p>Completed foundation training and certification on cross-platform app development using HCL Volt MX.
+Gained practical skills in building hybrid mobile applications.</p>
+                </div>
+
+            
+                <div class="experience-card">
+                    <h3>Intern, Persistent Systems</h3>
+                    <span class="tag">Dec 2024 – Feb 2025</span>
+                    <p>Worked on the Apartment Management System, building modules for resident management, notices, and maintenance workflows. Collaborated in an agile team, delivering efficient solutions.</p>
+                </div>
+                <div class="experience-card">
+                    <h3>UI Builder App Internship</h3>
+                    <span class="tag">Sept 2024</span>
+                    <p>Developed a dynamic mobile app for UI template creation and sharing, enhancing user experience and accessibility.</p>
+                </div>
+                
+                <!-- Add more experience cards as needed -->
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-info">
+                <p>📍 Nagpur, Maharashtra</p>
+                <p>📞 <a href="tel:+918999622657">+91 8999622657</a></p>
+                <p>📧 <a href="mailto:tembhareniketa@gmail.com">tembhareniketa@gmail.com</a></p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/niketa-tembhare-b86774255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="social linkedin">LinkedIn</a>
+                    <a href="https://github.com/NiketaTembhare" target="_blank" class="social github">GitHub</a>
+                </div>
+            </div>
+            <blockquote class="quote"><b>“Engineering scalable solutions for real-world impact.”</b></blockquote>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <small>
+                &copy; 2025 Niketa Tembhare &mdash; Designed with <span class="accent">❤️</span> by Niketa & Copilot
+            </small>
+            <div class="footer-social">
+                <a href="mailto:tembhareniketa@gmail.com">Email</a> |
+                <a href="https://linkedin.com/in/niketa-tembhare" target="_blank">LinkedIn</a> |
+                <a href="https://github.com/NiketaTembhare" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal for Certificate Preview -->
+    <div id="modal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modal-img" src="" alt="Certificate Full View">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
