@@ -392,38 +392,60 @@ body {
     color: var(--accent);
 }
 
-@media (max-width: 900px) {
-    .hero {
-        flex-direction: column;
-        align-items: center;
-        padding: 2rem 2vw 1rem 2vw;
-    }
-    .hero-img img {
-        margin-top: 1.5rem;
-    }
-    .section {
-        padding: 2rem 2vw;
-    }
-    .footer-content {
-        padding: 0 1vw;
-    }
-}
-
 @media (max-width: 600px) {
-    .navbar, .section, .footer-content {
-        padding: 1rem;
-    }
-    .projects-grid {
-        grid-template-columns: 1fr;
-    }
-    .certificates-gallery {
-        gap: 1rem;
-    }
-    .modal-content {
-        width: 90%;
-    }
-    .close {
-        right: 20px;
-        font-size: 40px;
-    }
+  .hero-content h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .hero-content p.tagline {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .hero-img img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .skills-grid,
+  .projects-grid,
+  .certificates-gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skill-card,
+  .project-card,
+  .certificate-card {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .tagline,
+  .card-btn,
+  .tech,
+  .tag {
+    font-size: 0.9rem;
+  }
+
+  .footer-social a {
+    font-size: 0.9rem;
+  }
+
+  nav.navbar {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
